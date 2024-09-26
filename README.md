@@ -1,6 +1,10 @@
 # EnglishLearning
 蚂蚁学习英语的历程
 
+# 动机
+
+能和更多的人交流，能获得更多的工作机会
+
 # 工具
 
 * Mac Option+ESC 朗读练习听力
