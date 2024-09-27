@@ -12,3 +12,7 @@
   * Raycast 迅速查词
   * Google meaning: 词 meaning / how to pronounce 词
 * https://github.com/ankitects/anki 闪卡背单词
+
+# 资源
+
+* [巴别英语](https://www.babelabc.com/) 看美剧学英语
