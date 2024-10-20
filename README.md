@@ -33,7 +33,7 @@
   - 完整度
  * 母语表达
 
-参考[我是如何摆脱哑巴英语的？](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter2.md)
+参考[我是如何摆脱哑巴英语的？](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter2.md)，[发音很重要，但显然不是最重要的](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter3.md)
 
 # 工具
 
