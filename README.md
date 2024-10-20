@@ -15,7 +15,7 @@
 * 隐藏单词
 * 生词本
 
-参考[语音塑造](https://1000h.org/sounds-of-american-english/0-intro.html)
+参考[语音塑造](https://1000h.org/sounds-of-american-english/0-intro.html)，还有[查词典与朗读一样是提高阅读理解能力的最直接有效的手段之一](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter5.md)
   
 # 学单词分解
 
