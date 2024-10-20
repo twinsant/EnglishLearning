@@ -1,6 +1,8 @@
 # EnglishLearning
 蚂蚁学习英语的历程
 
+> 每天三小时
+
 # 动机
 
 能和更多的人交流，能获得更多的赚钱机会
@@ -12,6 +14,8 @@
 * 重复多次
 * 隐藏单词
 * 生词本
+
+参考[语音塑造](https://1000h.org/sounds-of-american-english/0-intro.html)
   
 # 学单词分解
 
