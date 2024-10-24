@@ -26,6 +26,8 @@
 * 解释
 * 例句
 
+工具书[韦氏词典](https://www.merriam-webster.com/wordfinder)
+
 ## 口语
 
 * 语法纠错
