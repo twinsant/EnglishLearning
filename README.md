@@ -29,6 +29,7 @@
 工具书[韦氏词典](https://www.merriam-webster.com/wordfinder),比如
 
 * [https://www.merriam-webster.com/dictionary/dictionary](https://www.merriam-webster.com/dictionary/dictionary)
+* [https://www.merriam-webster.com/thesaurus/beautiful](https://www.merriam-webster.com/thesaurus/beautiful)
 
 ## 口语
 
