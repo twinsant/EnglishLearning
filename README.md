@@ -26,7 +26,9 @@
 * 解释
 * 例句
 
-工具书[韦氏词典](https://www.merriam-webster.com/wordfinder)
+工具书[韦氏词典](https://www.merriam-webster.com/wordfinder),比如
+
+* [https://www.merriam-webster.com/dictionary/dictionary](https://www.merriam-webster.com/dictionary/dictionary)
 
 ## 口语
 
