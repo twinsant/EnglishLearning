@@ -42,6 +42,8 @@
 
 参考[我是如何摆脱哑巴英语的？](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter2.md)，[发音很重要，但显然不是最重要的](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter3.md)，我也很认同[不必专门练习听力，朗读就够了](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter4.md)这个观点
 
+工具： 跟读体验很不错的[hispeaking.com/](https://hispeaking.com/)
+
 ## 工具
 
 * Mac Option+ESC 朗读练习听力
