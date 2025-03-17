@@ -56,6 +56,7 @@
   * Raycast 迅速查词
   * Google meaning: 词 meaning / how to pronounce 词
 * https://github.com/ankitects/anki 闪卡背单词
+* https://mylens.ai/apps/easylang 通过感兴趣的内容学习英语
 
 ## 资源
 
