@@ -46,6 +46,7 @@
 
 工具： 
 
+* [句乐部](https://julebu.co/)
 * Google AI Studio Realtime Streaming
 * 跟读体验很不错的[hispeaking.com/](https://hispeaking.com/)
 
