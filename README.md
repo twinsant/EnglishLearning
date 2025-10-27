@@ -10,7 +10,7 @@
 # 取经路
 
 记住学习进度，重点在
-* 听Youtube/?：需要找到语音与大脑关联的模式
+* 听Youtube/[HiSpeaking/](https://hispeaking.com/)：需要找到语音与大脑关联的模式
 
 ## 听力
 
@@ -47,7 +47,6 @@
 
 * [句乐部](https://julebu.co/)
 * Google AI Studio Realtime Streaming
-* 跟读体验很不错的[hispeaking.com/](https://hispeaking.com/)
 
 ## 工具
 
