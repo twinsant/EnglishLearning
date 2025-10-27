@@ -62,4 +62,3 @@
 * [Merriam-Webster's Developer Center](https://dictionaryapi.com/)
   - [APIs](https://dictionaryapi.com/products/index)
 * [有道词典](https://www.youdao.com/)
-* [英文短剧](https://www.dramaboxdb.com/)
