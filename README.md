@@ -10,7 +10,7 @@
 # 取经路
 
 记住学习进度，重点在
-* 听Youtube/[HiSpeaking/](https://hispeaking.com/)：需要找到语音与大脑关联的模式
+* 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
 
 ## 听力
 
@@ -59,7 +59,6 @@
 
 ## 资源
 
-* [巴别英语](https://www.babelabc.com/) 看美剧学英语
 * [Merriam-Webster's Developer Center](https://dictionaryapi.com/)
   - [APIs](https://dictionaryapi.com/products/index)
 * [有道词典](https://www.youdao.com/)
