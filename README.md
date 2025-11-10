@@ -1,22 +1,23 @@
 # EnglishLearning
 蚂蚁学习英语的历程
 
-> 从每天5分钟到三小时（听-说）
+> 从每天5分钟到15分钟到1小时（听-说）
 
 # 动机
 
-能和更多的人交流，能获得更多的赚钱机会
+能和更多的人交流学习，能获得更多的赚钱机会
 
 # 取经路
 
 记住学习进度，重点在
-* 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
+
+* **玩OmeTV**/ 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
 
 ## 听力
 
-* 重复多次
-* 隐藏单词，标记听不清的单词
-* 生词本
+* 重复多次（如何录屏OmeTV?）
+  - 隐藏单词，标记听不清的单词
+  - 生词本
 
 参考[语音塑造](https://1000h.org/sounds-of-american-english/0-intro.html)，还有[查词典与朗读一样是提高阅读理解能力的最直接有效的手段之一](https://github.com/ZuodaoTech/everyone-can-use-english/blob/main/book/chapter5.md)
   
@@ -51,6 +52,7 @@
 ## 工具
 
 * Mac **Option+ESC 朗读练习听力**
+  - **自带Looup Up菜单**/Dictionary
 * 本机
   * Raycast 迅速查词
   * Google meaning: 词 meaning / how to pronounce 词
