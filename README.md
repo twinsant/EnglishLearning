@@ -1,7 +1,7 @@
-# EnglishLearning
-蚂蚁学习英语的历程
+# 不规则学英语
+蚂蚁学习英语的历程：总有些不同的做法！
 
-> 从每天5分钟到15分钟到1小时（听-说）
+> 从每天10分钟到15分钟到1小时（听-说）
 
 # 动机
 
@@ -9,13 +9,14 @@
 
 # 取经路
 
-记住学习进度，重点在
+多听多说，无他：
 
-* **玩OmeTV**/ 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
+* **玩OmeTV**：每天10分钟和外国人聊天，用Obs录屏，分离音频，转文字，丢给LLM复盘，这样每天都有进步
+* 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
 
 ## 听力
 
-* 重复多次（如何录屏OmeTV?）
+* 重复多次
   - 隐藏单词，标记听不清的单词
   - 生词本
 
