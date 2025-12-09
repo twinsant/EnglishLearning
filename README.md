@@ -1,4 +1,4 @@
-# Vibe English learning 
+# 英语邪修 Vibe English learning 
 蚂蚁学习英语的历程：总有些不同的做法！
 
 > 从每天10分钟到25分钟到1小时（听-说）
