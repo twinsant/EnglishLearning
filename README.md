@@ -21,7 +21,9 @@
   - ⚠️如果遇到对方要你的社交媒体账号，请装傻充愣，毕竟陌生人环境下要有一定的安全意识
 * 听Youtube/[HiSpeaking/](https://hispeaking.com/)/[巴别英语](https://www.babelabc.com/)：需要找到语音与大脑关联的模式
 
-* ClubHouse 开语音房，找语言交换者互相学习
+* 使用千问，豆包，元宝和文心
+* 使用 ChatGPT Grok Claude Gemini
+* ClubHouse 开语音房，找语言交换者互相学习(难）
 
 ## 听力
 
