@@ -75,3 +75,4 @@
 * [Merriam-Webster's Developer Center](https://dictionaryapi.com/)
   - [APIs](https://dictionaryapi.com/products/index)
 * [有道词典](https://www.youdao.com/)
+* [离谱的英语学习指南/](https://github.com/byoungd/English-level-up-tips)
