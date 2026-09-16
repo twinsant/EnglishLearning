@@ -3,14 +3,16 @@
 抽词后自动检测缺失字段（音标/词义/词性），调用词典 API 补全并写回数据库"""
 import sqlite3
 import json
+import os
 import sys
-import random
 import urllib.request
+import urllib.error
 from pathlib import Path
 
 DB = Path.home() / "GitHub/EnglishLearning/单词本/words.db"
 OUT = Path.home() / ".openclaw/workspace/daily-words.json"
 API = "https://www.twinsant.com/fapi/w/{}"
+DAILY_WORDS_API = "https://www.twinsant.com/fapi/english/daily-words"
 
 
 def get_unmastered(db_path, limit=20):
@@ -81,6 +83,35 @@ def repair_word(word):
     return True
 
 
+def publish_daily_words(payload, api_url=None, token=None):
+    """Publish a generated daily list to the shared fapi service."""
+    api_url = api_url or os.getenv("ENGLISH_SYNC_API_URL", DAILY_WORDS_API)
+    token = token or os.getenv("ENGLISH_SYNC_TOKEN")
+    if not token:
+        raise RuntimeError("ENGLISH_SYNC_TOKEN is required to publish daily words")
+
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    request = urllib.request.Request(
+        api_url,
+        data=body,
+        method="PUT",
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "EnglishLearning/daily-words",
+            "X-Sync-Token": token,
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            result = json.load(response)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+        raise RuntimeError(f"daily words publish failed: {exc}") from exc
+
+    if result.get("code") != 200:
+        raise RuntimeError(f"daily words publish failed: {result}")
+    return result
+
+
 def main():
     rows = get_unmastered(DB, limit=20)
     if not rows:
@@ -126,6 +157,13 @@ def main():
     print(f"✅ 已写入 {len(words)} 个单词 -> {OUT}")
     for w in words:
         print(f"  {w['no']}. {w['word']} — {w['meaning']}")
+
+    try:
+        publish_daily_words(payload)
+    except RuntimeError as exc:
+        print(f"❌ {exc}", file=sys.stderr)
+        raise SystemExit(1) from exc
+    print("✅ 已发布每日词单到 twinsant fapi")
 
 
 if __name__ == "__main__":
