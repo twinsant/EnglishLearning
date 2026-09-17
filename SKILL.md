@@ -13,19 +13,34 @@ description: "每日英语单词推送与生词本管理。触发词：推送今
 |------|------|
 | 生词本数据库 | `~/GitHub/EnglishLearning/单词本/words.db` |
 | 抽取脚本 | `~/GitHub/EnglishLearning/scripts/daily-words.py` |
+| 状态同步脚本 | `~/GitHub/EnglishLearning/scripts/sync-learning-state.py` |
 | 生词本管理脚本 | `~/GitHub/EnglishLearning/单词本/lookup.py` |
 | 词典 API | `https://www.twinsant.com/fapi/w/<word>` |
+| 同步 API | `https://www.twinsant.com/fapi/english/` |
 | 推送中间文件 | `~/.openclaw/workspace/daily-words.json` |
+| 本地配置 | `~/GitHub/EnglishLearning/.env` |
 
 ## 推送流程
 
-1. 运行抽取脚本：`python3 ~/GitHub/EnglishLearning/scripts/daily-words.py`
-   - 完成标准：脚本打印「已写入 N 个单词」且无报错
+0. 加载本地配置，不要把令牌写入命令或消息：
+   ```bash
+   cd ~/GitHub/EnglishLearning
+   set -a
+   source .env
+   set +a
+   ```
+   - `.env` 必须包含与服务器和 iOS 相同的 `ENGLISH_SYNC_TOKEN`
+1. 先同步 iOS 的掌握状态：`python3 ~/GitHub/EnglishLearning/scripts/sync-learning-state.py`
+   - 完成标准：命令成功退出并输出同步条数与 cursor
+   - 失败时停止，不运行抽词脚本；保留当前本地词单，稍后重试
+   - 查看当前 cursor：`python3 ~/GitHub/EnglishLearning/scripts/sync-learning-state.py --status`
+2. 同步成功后运行抽取和发布脚本：`python3 ~/GitHub/EnglishLearning/scripts/daily-words.py`
+   - 完成标准：脚本打印「已写入 N 个单词」和「已发布每日词单到 twinsant fapi」且无报错
    - 脚本抽取 20 个未掌握单词（`ORDER BY lookup_count ASC, RANDOM()`）
    - 脚本自动检测缺失词条（音标/词义/词性为空），调词典 API 补全后写回数据库
-2. 读取 `~/.openclaw/workspace/daily-words.json`
+3. 读取 `~/.openclaw/workspace/daily-words.json`
    - 完成标准：拿到 `words` 数组，每项含 `no/word/phonetic/meaning/pos/sample` 字段
-3. 按卡片格式输出并推送（见下方格式）
+4. 按卡片格式输出并推送（见下方格式）
 
 ## 卡片输出格式
 
